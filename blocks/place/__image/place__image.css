@@ -1,0 +1,22 @@
+.place__image {
+    object-fit: contain;
+    max-width: 460px;
+}
+
+@media screen and (maw-width: 1140px) {
+    .place__image {
+        max-width: 440px;
+    }
+}
+
+@media screen and (maw-width: 984px) {
+    .place__image {
+        max-width: 340px;
+    }
+}
+
+@media screen and (maw-width: 1140px) {
+    .place__image {
+        max-width: 288px;
+    }
+}
