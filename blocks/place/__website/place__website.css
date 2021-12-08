@@ -1,6 +1,24 @@
 .place__website {
+    grid-area: website;
     display: flex;
-    justify-content: space-between;
-    border: 3px solid red;
+    position: relative;
+    flex-direction: column;
+    justify-content: left;
+    text-align: left;
+    width: 456px;
+    height: 46px;
+    align-self: flex-end;
+}
 
+@media screen and (max-width: 984px) {
+    .place__website {
+        width: 352px;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .place__website {
+        width: 288px;
+        padding: 0 16px;
+    }
 }
