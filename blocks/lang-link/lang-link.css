@@ -1,4 +1,4 @@
-.header__links_lang-link {
+.lang-link {
     /* display: flex; */
     
     margin: 0 0 0 18px;
@@ -14,12 +14,12 @@
     padding: 0;
 }
 
-.header__links_lang-link:nth-child(1) {
+.lang-link:nth-child(1) {
     text-decoration: underline;
     /* margin-left: 0; */
 }
 
-.header__links_lang-link:nth-child(2) {
+.lang-link:nth-child(2) {
     text-decoration: none;
     /* margin-left: 0; */
 }
@@ -30,7 +30,7 @@
 /*} */
 
 @media screen and (max-width: 568px) {
-    .header__links_lang-link {
+    .lang-link {
         font-size: 18px;
         line-height: 20px;
         /* max-width: 22px; */
