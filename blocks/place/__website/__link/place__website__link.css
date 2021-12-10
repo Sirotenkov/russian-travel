@@ -12,6 +12,7 @@
     margin: 12px 0 0 0;
     padding: 0;
     width: 100%;
-    max-height: 12px;
     align-self: flex-end;
+    grid-row-gap: 0;
+    grid-column-gap: 0;
 }

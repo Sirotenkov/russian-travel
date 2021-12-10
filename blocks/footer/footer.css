@@ -1,0 +1,20 @@
+.footer {
+    width: calc(100% - (48px * 2));
+    padding: 92px 0 0 0;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 984px) {
+    .footer {
+        width: calc(100% - (24px * 2));
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .footer {
+        display: grid;
+        grid-row-gap: 48px;
+    }
+}

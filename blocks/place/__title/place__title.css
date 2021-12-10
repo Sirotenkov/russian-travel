@@ -9,6 +9,9 @@
     align-items: flex-end;
     margin: 0;
     padding: 0;
+    grid-row-gap: 0;
+    grid-column-gap: 0;
+    display: flex;
 }
 
 @media screen and (max-width: 984px) {

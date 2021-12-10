@@ -20,5 +20,6 @@
     .intro__text {
         width: calc(100% - (16px*2));
         margin: 40px 0 34px;
+        padding: 0 16px;
     }
 }

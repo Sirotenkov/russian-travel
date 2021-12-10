@@ -8,6 +8,8 @@
     margin: 0;
     padding: 0;
     width: 100%;
+    grid-row-gap: 0;
+    grid-column-gap: 0;
 }
 
 .place__paragraphs__paragraph:nth-child(2) {
@@ -28,5 +30,12 @@
 
     .place__paragraphs__paragraph:nth-child(2) {
         margin: 25px 0 0 0;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .place__paragraphs__paragraph {
+        width: 100%;
+        padding: 0 16px;
     }
 }

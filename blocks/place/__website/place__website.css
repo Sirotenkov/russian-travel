@@ -1,24 +1,23 @@
 .place__website {
     grid-area: website;
-    display: flex;
-    position: relative;
-    flex-direction: column;
-    justify-content: left;
     text-align: left;
-    width: 456px;
-    height: 46px;
+    /* width: 456px; */
     align-self: flex-end;
+    grid-row-gap: 0;
+    grid-column-gap: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 @media screen and (max-width: 984px) {
     .place__website {
-        width: 352px;
+        /* width: 352px; */
     }
 }
 
 @media screen and (max-width: 568px) {
     .place__website {
-        width: 288px;
+        width: 100%;
         padding: 0 16px;
     }
 }

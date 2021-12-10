@@ -4,9 +4,12 @@
     flex-direction: column;
     max-width: 484px;
     align-items: flex-start;
+    grid-row-gap: 0;
+    grid-column-gap: 0;
 }
 @media screen and (max-width: 568px) {
     .place__paragraphs {
-        padding: 0 16px;
+        margin: 0 auto;
+        padding: 0;
     }
 }

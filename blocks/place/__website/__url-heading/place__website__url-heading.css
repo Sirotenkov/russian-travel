@@ -10,6 +10,7 @@
     margin: 0;
     padding: 0;
     width: 100%;
-    max-height: 22px;
     align-self: flex-end;
+    grid-row-gap: 0;
+    grid-column-gap: 0;
 }
