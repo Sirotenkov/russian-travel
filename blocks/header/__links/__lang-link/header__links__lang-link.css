@@ -1,6 +1,6 @@
 .header__links__lang-link {
-    display: flex;
-    text-decoration: none;
+    /* display: flex; */
+    
     margin: 0 0 0 18px;
     font-size: 24px;
     line-height: 28px;
@@ -8,19 +8,31 @@
     font-weight: 400;
     align-items: center;
     color: #fff;
-    max-width: 30px;
+    display: block;
+    text-align: right;
+    /* max-width: 30px; */
     padding: 0;
 }
 
 .header__links__lang-link:nth-child(1) {
     text-decoration: underline;
-    margin-left: 0;
+    /* margin-left: 0; */
 }
+
+.header__links__lang-link:nth-child(2) {
+    text-decoration: none;
+    /* margin-left: 0; */
+}
+
+/* .header__links__lang-link:last-child {
+    text-decoration: none;
+    /* margin-left: 0; */
+/*} */
 
 @media screen and (max-width: 568px) {
     .header__links__lang-link {
         font-size: 18px;
         line-height: 20px;
-        max-width: 22px;
+        /* max-width: 22px; */
     } 
 }
