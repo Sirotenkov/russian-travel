@@ -1,4 +1,4 @@
-.footer__links__link {
+.footer__links_link {
     margin: 0 18px 0 0;
     padding: 0;
     color: #fff;
@@ -11,13 +11,13 @@
 }
 
 @media screen and (max-width: 568px) {
-    .footer__links__link {
+    .footer__links_link {
         padding: 0 0 32px 0;
         font-size: 24px;
         line-height: 24px;
     }
 
-    .footer__links__link:last-child {
+    .footer__links_link:last-child {
         padding: 0;
     }
 }
