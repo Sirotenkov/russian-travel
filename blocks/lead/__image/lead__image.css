@@ -1,8 +1,7 @@
 .lead__image {
+    display: flex;
+    flex-flow: column;
     box-sizing: border-box;
-    /* position: relative; */
-    /* background: url(./../../../sprint-3-images/sprint-3-images/lead-polka.jpg); */
-    /* background-size: cover; */
     width: 984px;
     max-height: 615px;
     object-fit: cover;
@@ -23,7 +22,6 @@
         width: 768px;
         max-height: 480px;
         margin: 40px auto 0;
-        overflow: hidden;
     } 
 }
 

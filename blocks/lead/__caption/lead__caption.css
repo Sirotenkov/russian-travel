@@ -4,33 +4,22 @@
     font-size: 10px;
     line-height: 14px;
     padding: 0;
-    margin: 8px auto 0;
+    margin: 8px 0 0 0;
     text-align: left;
-    box-sizing: border-box;
-    width: 984px;
-}
-
-@media screen and (max-width: 1140px) {
-    .lead__caption {
-        width: 928px;
-        margin: 8px auto 0;
-    }
+    
+    /* width: 100%; */
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
 }
 
 @media screen and (max-width: 984px) {
     .lead__caption {
-        /* width: calc(100% - (24px * 2)); */
-        width: 768px;
-        margin: 8px auto 0;
         padding: 0 0 0 24px;
     }
 }
 
 @media screen and (max-width: 568px) {
     .lead__caption {
-        /* width: calc(100% - (16px * 2)); */
-        width: 320px;
-        margin: 8px auto 0;
         padding: 0 0 0 16px;
     }
 }
