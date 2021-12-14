@@ -1,6 +1,6 @@
 .intro__list {
-    display: flex;
-    justify-self: left;
+    /*display: flex;
+    justify-self: left; */
     /* width: 100%; */
     margin: 0;
     padding: 0;
@@ -10,7 +10,6 @@
     font-size: 12px;
     line-height: 18px;
     text-align: left;
-    padding: 0;
 }
 
 @media screen and (max-width: 568px) {
