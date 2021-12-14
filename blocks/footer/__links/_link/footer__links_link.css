@@ -10,6 +10,21 @@
     font-style: normal;
 }
 
+.footer__links_link:hover {
+    color: blue;
+}
+
+.footer__links_link:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px lightsteelblue;
+}
+
+.footer__links_link:active {
+    border-color: red;
+    color: red;
+}
+
+
 @media screen and (max-width: 568px) {
     .footer__links_link {
         padding: 0 0 32px 0;
