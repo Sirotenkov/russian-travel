@@ -35,7 +35,13 @@
 
 @media screen and (max-width: 568px) {
     .place__paragraph {
-        width: 100%;
         padding: 0 16px;
+        margin: 0 16px;
+        max-width: 288px;
+    }
+
+    .place__paragraph:nth-child(2) {
+        margin: 25px 16px 0;
+        max-width: 288px;
     }
 }
