@@ -14,17 +14,9 @@
 }
 
 .header__lang-link:hover {
-    color: blue;
-}
-
-.header__lang-link:focus {
-    outline: none;
-    box-shadow: 0 0 0 3px lightsteelblue;
-}
-
-.header__lang-link:active {
-    border-color: red;
-    color: red;
+    color: #FFFFFF;
+    opacity: 0.8;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 568px) {

@@ -1,7 +1,6 @@
 .website-link {
     text-align: left;
     text-decoration: underline;
-    cursor: pointer;
     color: #fff;
     font-family: 'Inter', Arial, sans-serif;
     font-weight: 400;
@@ -17,15 +16,7 @@
 }
 
 .website-link:hover {
-    color: blue;
-}
-
-.website-link:focus {
-    outline: none;
-    box-shadow: 0 0 0 3px lightsteelblue;
-}
-
-.website-link:active {
-    border-color: red;
-    color: red;
+    color: #FFFFFF;
+    opacity: 0.8;
+    cursor: pointer;
 }
