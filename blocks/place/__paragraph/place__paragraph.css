@@ -1,4 +1,4 @@
-.place__paragraphs_paragraph {
+.place__paragraph {
     align-self: flex-start;
     font-weight: 400;
     font-style: normal;
@@ -12,29 +12,29 @@
     grid-column-gap: 0;
 }
 
-.place__paragraphs_paragraph:nth-child(2) {
+.place__paragraph:nth-child(2) {
     margin: 26px 0 0 0;
 }
 
 @media screen and (max-width: 1140px) {
-    .place__paragraphs_paragraph:nth-child(2) {
+    .place__paragraph:nth-child(2) {
         margin: 27px 0 0 0;
     }
 }
 
 @media screen and (max-width: 984px) {
-    .place__paragraphs_paragraph {
+    .place__paragraph {
         font-size: 16px;
         line-height: 26.08px;
     }
 
-    .place__paragraphs_paragraph:nth-child(2) {
+    .place__paragraph:nth-child(2) {
         margin: 25px 0 0 0;
     }
 }
 
 @media screen and (max-width: 568px) {
-    .place__paragraphs_paragraph {
+    .place__paragraph {
         width: 100%;
         padding: 0 16px;
     }
