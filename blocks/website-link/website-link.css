@@ -1,5 +1,4 @@
 .website-link {
-    position: relative;
     text-align: left;
     text-decoration: underline;
     cursor: pointer;
@@ -15,4 +14,18 @@
     align-self: flex-end;
     grid-row-gap: 0;
     grid-column-gap: 0;
+}
+
+.website-link:hover {
+    color: blue;
+}
+
+.website-link:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px lightsteelblue;
+}
+
+.website-link:active {
+    border-color: red;
+    color: red;
 }
