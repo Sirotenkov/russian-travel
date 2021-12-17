@@ -1,4 +1,4 @@
-.website-link {
+.place__link {
     text-align: left;
     text-decoration: underline;
     color: #fff;
@@ -15,7 +15,7 @@
     grid-column-gap: 0;
 }
 
-.website-link:hover {
+.place__link:hover {
     color: #FFFFFF;
     opacity: 0.8;
     cursor: pointer;
