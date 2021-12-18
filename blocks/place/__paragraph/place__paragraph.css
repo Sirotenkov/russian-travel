@@ -16,16 +16,16 @@
     margin: 26px 0 0 0;
 }
 
-@media screen and (max-width: 1140px) {
+@media screen and (max-width: 1270px) {
     .place__paragraph:nth-child(2) {
         margin: 27px 0 0 0;
     }
 }
 
-@media screen and (max-width: 984px) {
+@media screen and (max-width: 1020px) {
     .place__paragraph {
         font-size: 16px;
-        line-height: 26.08px;
+        line-height: 163%;
     }
 
     .place__paragraph:nth-child(2) {
@@ -33,15 +33,12 @@
     }
 }
 
-@media screen and (max-width: 568px) {
+@media screen and (max-width: 760px) {
     .place__paragraph {
-        padding: 0 16px;
-        margin: 0 16px;
-        max-width: 288px;
+        margin: 0 auto;
     }
 
     .place__paragraph:nth-child(2) {
-        margin: 25px 16px 0;
-        max-width: 288px;
+        margin: 25px auto 0;
     }
 }

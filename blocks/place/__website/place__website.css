@@ -1,7 +1,6 @@
 .place__website {
     grid-area: website;
     text-align: left;
-    /* width: 456px; */
     align-self: flex-end;
     grid-row-gap: 0;
     grid-column-gap: 0;
@@ -9,16 +8,8 @@
     flex-direction: column;
 }
 
-@media screen and (max-width: 984px) {
+@media screen and (max-width: 760px) {
     .place__website {
-        /* width: 352px; */
-    }
-}
-
-@media screen and (max-width: 568px) {
-    .place__website {
-        max-width: 288px;
         padding: 0 16px;
-        margin-left: 16px;
     }
 }

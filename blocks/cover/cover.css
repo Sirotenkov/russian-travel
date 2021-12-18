@@ -3,9 +3,8 @@
     margin: 0 auto;
     padding: 0;
 }
-@media screen and (max-width: 1140px) {
+@media screen and (max-width: 1270px) {
     .cover {
-        padding: 0;
         width: 100%;
     }
 }
